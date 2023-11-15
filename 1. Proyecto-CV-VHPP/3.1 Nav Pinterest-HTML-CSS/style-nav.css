@@ -1,0 +1,84 @@
+nav {
+    background-color: white;
+      /* border-style: dotted;  */ border: solid white;
+    height: 70px;
+    position: sticky;
+    top: 0;
+}
+
+.logo-pinterest {
+    height: 35px;
+    position: relative;
+    left: 30px;
+    bottom: 7px;
+}
+
+.logo-campana {
+    height: 35px;
+}
+
+.logo-mensaje {
+    height: 35px;
+}
+
+.logo-perfil {
+    height: 35px;
+    position: absolute;
+    top: 17px;
+    border-radius: 100vw;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 40px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buscar {
+ /* border: solid 1px grey;  */
+background-color: rgb(241, 239, 239);
+border-radius: 110vw;
+width: 730px;
+height: 45px;
+text-align-last: left;
+text-align: start;
+position: relative;
+bottom: 7px;
+ /* color gris letra  */ color: rgb(241, 239, 239);
+}
+
+.buscar-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 15px;
+    position: absolute;
+    left: 425px;
+    top: 12px;
+}
+.inicio {
+    background-color: black;
+    border-radius: 100vw;
+    padding: 15px;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* para que todos los elementos tengan un tamaño más intuitivo*/ 
+}
+section {
+    width: 1150px;
+    margin: 20px 0 0 135px;
+    columns: 5;
+    column-gap: 15px;
+}
+.image-cuadro {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 18px;
+}
